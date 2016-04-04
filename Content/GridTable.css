@@ -1,0 +1,12 @@
+﻿#DetailTable table{
+    margin: 5px !important;
+    padding: 10px !important;
+    border: 1px #c8c8c8 solid !important;
+    border-collapse: collapse !important;
+    min-width: 550px !important;
+    background-color: !important;
+    color: #fff !important;
+}
+#DetailTable tr{
+    background-color:red !important;
+}

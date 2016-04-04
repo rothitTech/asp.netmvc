@@ -1,0 +1,99 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+.summary {
+    width: 100%;
+}
+
+.AdminGrid {
+    width: 150px;
+}
+
+.FullName {
+    width: 85px;
+}
+
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.requiredMessage {
+    color: #b94a48;
+}
+
+
+.announcementTitle {
+    color: #468cc8;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.announcementText {
+    padding-bottom: 15px;
+}
+
+.knowledgeBaseText {
+    padding-bottom: 15px;
+}
+
+.divFltRght {
+    float: right;
+}
+
+
+.announcementTitleClr {
+    color: #468cc8;
+}
+
+.knowledgeBaseTitleClr {
+    color: #468cc8;
+}
+
+.file-icon-padding {
+    padding: 1px 10px 1px 5px;
+}
+
+.btn-save-item {
+    margin: 20px 0 0 95px;
+}
+textarea.input-validation-error {
+    border: 1px solid #e80c4d;
+}

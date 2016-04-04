@@ -1,0 +1,65 @@
+﻿
+
+.gridTable {
+    margin: 5px;
+    padding: 10px;
+    border: 1px #c8c8c8 solid;
+    border-collapse: collapse;
+    min-width: 550px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.gridHead th {
+    font-weight: bold;
+    background-color: #044482;
+    color: #fff;
+    padding: 10px;
+}
+
+.gridHead a:link, .gridHead a:visited, .gridHead a:active, .gridHead a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.gridHead a:hover {
+    text-decoration: underline;
+}
+
+.gridTable tr.gridAltRow {
+    background-color: #efeeef;
+}
+
+.gridTable tr:hover {
+    background-color: #f6f70a;
+}
+
+.gridAltRow td {
+    padding: 10px;
+    margin: 5px;
+    color: #333;
+}
+
+.gridRow td {
+    padding: 10px;
+    color: #333;
+}
+
+.gridFooter td {
+    padding: 10px;
+    background-color: #fff;
+    color: #999;
+    font-size: 12pt;
+    letter-spacing:5px;
+    text-align: center;
+}
+
+.gridFooter a {
+    /*font-weight: bold;
+    color: #333;
+    border: 1px #333 solid;*/
+}
+
+.summary{
+    width:100%;
+}

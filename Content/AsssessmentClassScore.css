@@ -1,0 +1,161 @@
+﻿/********************** Grid Styling ************************************/
+.grid-report {
+    width: 100%;
+}
+
+    .grid-report .row-mergedcols {
+        background: #58595B;
+        height: 0px !important;
+    }
+
+    .grid-report .row-assessment-headers {
+        background: #231F20;
+        color: white;
+    }
+
+    .grid-report .row-report-columns {
+        background: #231F20;
+        color: white;
+    }
+
+.row-report-columns a {
+    color: white;
+}
+
+.row-normal {
+    background: #FFFFFF;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 3px 7px 2px;
+}
+
+.row-alternate {
+    background: #F9F9F9;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 3px 7px 2px;
+}
+
+.link-enable {
+    pointer-events: visible;
+    cursor: pointer;
+    display: normal;
+}
+
+.col-assessment-header {
+    width: 150px;
+}
+
+.column-cell {
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    width: 75px;
+}
+
+.grid-report td input {
+    width: 69px;
+    text-align: center;
+}
+
+.col-student {
+    width: 150px;
+    padding-left: 5px;
+    border-right: solid;
+}
+
+    .col-student label {
+        width: 150px;
+    }
+
+.col-score-inner {
+    border-left: solid;
+}
+
+.record-count {
+  float:left;
+  padding-left:3px;
+}
+
+.row-mergedcols {
+    height: 0px;
+}
+
+/**************************Datatable plugin css changes overriden******************************/
+.dataTables_wrapper .dataTables_filter {
+    padding-right: 20px;
+}
+
+
+.dataTables_wrapper .dataTables_filter {
+    padding-right: 20px;
+}
+
+.dataTable thead th, .dataTable thead td {
+    padding: 0px 18px !important;
+}
+
+.dataTables_wrapper .dataTables_info {
+    display: none;
+}
+
+.dataTable tbody tr.odd {
+    background-color: #eee !important;
+}
+
+.DTFC_LeftBodyLiner{
+    overflow-y:scroll !important;
+    overflow-x: hidden;
+}
+
+.dataTable thead .sorting_asc {
+  background-image: url("../content/images/sort_asc.png") !important;
+}
+.dataTable thead .sorting_desc {
+  background-image: url("../content/images/sort_desc.png") !important;
+}
+
+/****************** Cell Editing CSS *************************/
+#divSuccessMessage {
+    margin-top: 10px;
+    padding-left: 0px;
+    color: #ED7476;
+}
+
+#divMessage {
+    margin-top: 10px;
+    color: #ED7476;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+input.edited {
+    background: Yellow;
+}
+
+#modalMessage {
+    margin-top: 100px;
+}
+
+
+/****************** Loading/Waiting data CSS *************************/
+
+#divLoading {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #333;
+    z-index: 99;
+    text-align: center;
+}
+
+.loaderImage {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    z-index: 100;
+}

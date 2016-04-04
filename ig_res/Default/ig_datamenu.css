@@ -1,0 +1,984 @@
+/**************************** VERTICAL (Default / No suffixes) *************************************************/
+.igdm_ControlVertical
+{
+	background-color:#EFEFEF;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_controlbackground.png);
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+/*
+ Main Control CSS class when it's active 
+*/
+.igdm_ControlVerticalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_ControlVerticalDisabled
+{
+	background-color:#EFEFEF;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_controlbackground.png);
+}
+
+
+/******************************** ROOT ELEMENTS ***************************************************/
+.igdm_MenuGroupVerticalRoot
+{
+	background-color:Transparent;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_MenuItemVerticalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 30px 6px 12px;
+	color:#333333;
+}
+
+
+.igdm_MenuItemVerticalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_MenuItemVerticalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	line-height: 12px;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_MenuItemVerticalRootSelected
+{
+	background-color:#6EB6E5;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_rootselected.png);
+	border:solid 1px #6691B8;
+}
+
+
+.igdm_MenuItemVerticalRootActive
+{
+	background-color:#75BAE7;
+	border:solid 1px #6691B8;
+}
+
+
+.igdm_MenuItemVerticalRootHover
+{
+	background-color:#8AD2ED;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px Transparent;
+}
+
+
+.igdm_MenuItemVerticalRootDisabled
+{
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_MenuGroupVertical
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_MenuItemVertical
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_MenuItemVerticalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	line-height: 12px;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_MenuItemVerticalParent
+{
+    background-repeat:no-repeat;
+	background-position:center right ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+}
+.igdm_MenuItemVerticalParent.igdm_MenuItemVerticalRootActive, .igdm_MenuItemVerticalParent.igdm_MenuItemVerticalRootHover
+{
+	background-image: url(images/igwdm_submenuindicatorHover.gif);
+}
+
+
+.igdm_MenuItemVerticalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemVerticalSelected
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #666666;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemVerticalActive
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #666666;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemVerticalHover
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+	margin:0px;
+	color:White;
+}
+
+
+.igdm_MenuItemVerticalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_MenuItemVerticalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	height: 1px;
+	height: 1px;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	clear: both;
+}
+
+
+.igdm_MenuScrollContainerVertical
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	color:Black;
+}
+
+
+.igdm_MenuScrollerRootTop
+{
+}
+
+
+.igdm_MenuScrollerRootBottom
+{
+}
+
+
+.igdm_MenuScrollerTop
+{
+	height: 10px;
+	width: 100%;
+}
+
+
+.igdm_MenuScrollerBottom
+{
+	height: 10px;
+	width: 100%;
+}
+
+
+/************************************************************************************************\
+
+********************** Horizontal / Suffixed with "Horizontal" *********************************
+
+\************************************************************************************************/
+.igdm_ControlHorizontal
+{
+	background-color:#EFEFEF;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_controlbackground.png);
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+.igdm_ControlHorizontalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_ControlHorizontalDisabled
+{
+	background-color:#EFEFEF;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_controlbackground.png);
+}
+
+
+/************** End Main Control Definitions ********************/
+/******************************** ROOT ELEMENTS - Group and Item ***************************************/
+/** Definitions for Root elements should be always before definitions of subElements **/
+.igdm_MenuGroupHorizontalRoot
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_MenuItemHorizontalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 6px 6px 12px;
+	float: left;
+	color:#000FFF;
+}
+
+
+.igdm_MenuItemHorizontalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	float: left;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_MenuItemHorizontalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_MenuItemHorizontalRootSelected
+{
+	background-color:#6EB6E5;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_rootselected.png);
+	border:solid 1px #6691B8;
+}
+
+
+.igdm_MenuItemHorizontalRootActive
+{
+	background-color:#6EB6E5;
+	border:solid 1px #6691B8;
+}
+
+
+.igdm_MenuItemHorizontalRootHover
+{
+	background-color:#8AD2ED;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px Transparent;
+	_border: 0px;
+}
+
+
+.igdm_MenuItemHorizontalRootDisabled
+{
+	float: left;
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_MenuGroupHorizontal
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_MenuItemHorizontal
+{
+	background-attachment:scroll;
+	background-color: #FFFFFF none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	color:#000333;
+}
+
+
+.igdm_MenuItemHorizontalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_MenuItemHorizontalParent
+{
+	font-weight:normal;
+	margin:0px;
+}
+
+
+.igdm_MenuItemHorizontalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemHorizontalSelected
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #666666;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemHorizontalActive
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #666666;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemHorizontalHover
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:top left ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+	margin:0px;
+	color:White;
+}
+
+
+.igdm_MenuItemHorizontalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_MenuItemHorizontalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	width: 1px;
+	width: 1px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+
+/* Scrolling container - DIV */
+.igdm_MenuScrollContainerHorizontal
+{
+	background-color:White;
+	border:solid 1px #CCCCCC;
+	color:Black;
+}
+
+
+/* Left scrolling element for root level items Horizontal orientation - DIV */
+.igdm_MenuScrollerRootLeft
+{
+}
+
+
+/* Right scrolling element for root level items Horizontal orientation - DIV */
+.igdm_MenuScrollerRootRight
+{
+}
+
+
+/* Left scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_MenuScrollerLeft
+{
+	background-repeat:repeat-y;
+	background-position:right -70px ;
+	border-left:solid 1px #5891C2;
+	width: 10px;
+	height: 28px;
+	display: block;
+}
+
+
+/* Right scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_MenuScrollerRight
+{
+	background-repeat:repeat-y;
+	background-position:right -70px ;
+	border-right:solid 1px #5891C2;
+	width: 10px;
+	height: 28px;
+	display: block;
+}
+
+
+/*************************************** SCROLLING ROLES ************************************/
+.igdm_MenuScrollButton
+{
+	background-color:#d6d6d6;
+	background-repeat:repeat-x;
+	background-position:center -57px ;
+	background-image: url(images/igwdm_scrollsprite.png);
+	border:solid 1px #5891C2;
+	margin:0px;
+	padding:0px;
+	position: absolute;
+	text-decoration:none;
+}
+
+
+.igdm_MenuScrollIcon
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igwdm_scrollsprite.png);
+	margin:0px;
+	padding:0px;
+	display: block;
+	height: 10px;
+	cursor:pointer;
+}
+
+
+.igdm_MenuScrollIconTop
+{
+	background-position:center -1px ;
+	margin-left:-5px;
+	width: 10px;
+	position: relative;
+	left: 50%;
+}
+
+
+.igdm_MenuScrollIconBottom
+{
+	background-position:center -25px ;
+	margin-left:-5px;
+	width: 10px;
+	position: relative;
+	left: 50%;
+}
+
+
+.igdm_MenuScrollIconLeft
+{
+	background-position:-15px -15px ;
+	margin-top:-6px;
+	position: relative;
+	top: 50%;
+}
+
+
+.igdm_MenuScrollIconRight
+{
+	background-position:-30px -15px ;
+	margin-top:-6px;
+	position: relative;
+	top: 50%;
+}
+
+
+.igdm_MenuScrollContainer
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+}
+
+
+.igdm_MenuScrollContainerRootVertical
+{
+}
+
+
+.igdm_MenuScrollContainerRootHorizontal
+{
+}
+
+
+.igdm_MenuGroupScrollingVertical
+{
+	background-color:White;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_MenuGroupScrollingHorizontal
+{
+	background-color:White;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.ie6 .igdm_MenuItemHorizontalSeparator
+{
+	overflow: hidden;
+}
+
+
+/*************************************** END SCROLLING ROLES ********************************/
+/***************
+*   IE6 Fixes  *
+****************/
+.ie6 .igdm_MenuItemVerticalRoot.igdm_MenuItemVerticalParent.igdm_MenuItemVerticalRootHover
+{
+	background-color: #8AD2ED!important;
+	background-position:left ;
+	background-image: url(images/igdm_roothover.png)!important;
+	border-width:0px;
+	background-repeat: repeat-x!important;
+}
+
+
+.igdm_MenuItemVerticalRootSelected > a
+{
+	color:White;
+}
+
+
+.igdm_MenuItemHorizontalHover > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemHorizontalHover
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_MenuItemVerticalRootHover .igdm_MenuItemVerticalRootLink
+{
+	color:White;
+}
+
+
+.igdm_MenuItemVerticalActive.igdm_MenuItemVerticalParent
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:center right ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+	font-weight:normal;
+	border:solid 1px #666666;
+}
+
+
+.igdm_MenuItemHorizontalRootSelected > a
+{
+	color:White;
+}
+
+
+.ie6 ul.igdm_MenuGroupVerticalRoot li.igdm_MenuItemVerticalParent.igdm_MenuItemVerticalRoot
+{
+	background-color: none;
+}
+
+
+.ie6 .igdm_MenuItemVerticalActive
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_MenuItemVerticalRoot.igdm_MenuItemVerticalRootActive .igdm_menuitemverticalrootlink, .ie6 .igdm_MenuItemVerticalRoot.igdm_MenuItemVerticalRootSelected .igdm_MenuItemVerticalRootLink
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemHorizontalRoot
+{
+	border-width:0px;
+}
+
+
+.igdm_MenuItemVerticalHover.igdm_MenuItemVerticalParent
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:top right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+}
+
+
+.ie6 .igdm_MenuItemVerticalRoot.igdm_MenuItemVerticalParent.igdm_MenuItemVerticalRootSelected
+{
+	background-color: #6EB6E5!important;
+	background-position:left ;
+	background-image: url(images/igdm_rootselected.png)!important;
+	border-width:0px;
+	background-repeat: repeat-x!important;
+}
+
+
+.igdm_MenuItemVerticalSelected > a
+{
+	color:White;
+}
+
+
+.igdm_MenuItemVerticalSelected.igdm_MenuItemVerticalParent
+{
+	background-color:#FF9933;
+	background-repeat:repeat-x;
+	background-position:center right ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	font-weight:normal;
+	border:solid 1px #666666;
+}
+
+
+.igdm_MenuItemVerticalActive > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemVertical.igdm_MenuItemVerticalParent
+{
+	border-width:0px;
+}
+
+
+.igdm_MenuScrollerBottom hover, .igdm_MenuScrollerRight active
+{
+	background-position:center -42px ;
+}
+
+
+.igdm_MenuItemVerticalRootHover > a
+{
+	color:White;
+}
+
+
+.igdm_MenuItemHorizontalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+.igdm_MenuScrollerRight hover, .igdm_MenuScrollerRight active
+{
+	background-position:left -70px ;
+}
+
+
+.igdm_MenuScrollerLeft hover, .igdm_MenuScrollerRight active
+{
+	background-position:left -70px ;
+}
+
+
+.ie6 .igdm_MenuItemVerticalHover.igdm_MenuItemVerticalParent
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_MenuItemVerticalHover
+{
+	border-width:0px;
+}
+
+
+.igdm_MenuItemVerticalRootActive > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemVerticalRootHover
+{
+	border-width:0px;
+}
+
+
+.igdm_MenuItemHorizontalSelected > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuGroupScrollingVertical .igdm_MenuItemVerticalParent
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:right center ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+}
+
+
+.ie6 .igdm_MenuItemHorizontal
+{
+	border-width:0px;
+}
+
+
+.igdm_MenuScrollerTop hover, .igdm_MenuScrollerRight active
+{
+	background-position:center -42px ;
+}
+
+
+.igdm_MenuItemVertical.igdm_MenuItemVerticalParent
+{
+	background-repeat:no-repeat;
+	background-position:right center ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+}
+
+
+.igdm_MenuItemHorizontalRootActive > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemHorizontalRootSelected
+{
+	border-width:0px;
+}
+
+
+.igdm_MenuItemHorizontalActive > a
+{
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemVerticalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+.ie6 .igdm_MenuItemHorizontalRootHover .igdm_MenuItemHorizontalRootLink
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemVerticalRootSelected
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_MenuItemVerticalSeparator
+{
+	overflow: hidden;
+}
+
+
+.igdm_MenuItemVerticalHover > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemVerticalRoot
+{
+	border-width:0px;
+}
+
+
+.igdm_MenuItemHorizontalRootHover > a
+{
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_MenuItemHorizontalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+.ie6 .igdm_MenuItemHorizontalRootActive .igdm_MenuItemHorizontalRootLink
+{
+	color:White;
+}
+
+
+.ie6 .igdm_MenuItemVertical
+{
+	border-width:0px;
+	height: 15px;
+}
+
+
+.igdm_MenuItemVerticalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+

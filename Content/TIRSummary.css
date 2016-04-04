@@ -1,0 +1,21 @@
+﻿
+.meet-exceed-arrow-float-left-False {
+    float:left;
+}
+
+
+.meet-exceed-div-float-False {
+    float:left;
+    margin-left:46px;
+}
+.meet-exceed-div-float-True {
+    float:right;
+    margin-left:110px;
+}
+
+.summary-report-toggle {
+     float: right;
+    padding-left: 20px;
+    padding-top: 20px;
+    display:none;
+}

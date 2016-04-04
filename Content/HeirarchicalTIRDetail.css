@@ -1,0 +1,240 @@
+﻿.report-header {
+    background: #58595B;
+    color: white;
+}
+
+    .report-header .report-title {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+.report-toggle {
+    float: right;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.report-header .report-column-headers {
+    padding-left: 10px;
+}
+
+.grid-report {
+    width: 100%;
+}
+
+    .grid-report .row-mergedcols {
+        background: #58595B;
+        height: 10px;
+    }
+
+    .grid-report .row-assessment-headers {
+        background: #231F20;
+        color: white;
+    }
+
+    .grid-report .row-report-columns {
+        background: #231F20;
+        color: white;
+    }
+
+.row-report-columns a {
+    color: white;
+}
+
+
+
+.grid-report .fixed-column-ID {
+    text-align: right;
+}
+
+.col-id {
+    padding-left: 10px;
+    text-align: right;
+}
+
+
+.col-student {
+    width: 160px;
+    padding-left: 5px;
+    border-right: solid;
+}
+
+
+ .col-student label {
+        width: 160px;
+        padding-left: 10px;
+    }
+
+
+.col-score-inner {
+    border-left: solid;
+}
+
+
+.col-padding-right {
+    padding-right: 5px;
+}
+
+.row-normal {
+    background: #FFFFFF;
+}
+
+.row-alternate {
+    background: #F9F9F9;
+}
+
+.meet-exceed-legend {
+    float: right;
+    margin-left: 8px;
+}
+
+.meet-exceed-legent-title {
+    float: right;
+    margin-left: 3px;
+}
+
+.meet-exceed-arrow {
+    margin-right: 5px;
+}
+
+.term-dropdown {
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.link-enable {
+    pointer-events: visible;
+    cursor: pointer;
+    display: normal;
+}
+
+.link-disable {
+    pointer-events: visible;
+    cursor: default;
+    color: grey;
+    display: none;
+}
+
+.divAssLinks {
+    float: right;
+    padding-right: 30px;
+}
+
+.linkPrev {
+    padding: 0 5px 0 0;
+}
+
+.linkNext {
+    padding: 0 1px 0 5px;
+}
+
+
+
+.divPrevAssLinks {
+    z-index: 999;
+    position: absolute;
+    margin: 18px 0 0 -15px;
+}
+
+
+
+.divNextAssLinks {
+    z-index: 999;
+    position: absolute;
+    margin: 18px 0 0 1127px;
+}
+
+
+.row-mergedcols {
+    height: 0px;
+}
+
+
+.col-assessment-header {
+}
+
+
+.column-cell {
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+}
+
+.column-cell-impact {
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: right;
+}
+.label-format-class {
+    text-align: left;
+    float:left;
+}
+
+.record-count {
+  float:left;
+  padding-left:3px;
+}
+
+.meet-exceed-arrow- {
+   background-position: 0px -105px !important;
+   display:inline !important;
+}
+
+.row-copyright {
+ margin-top:3px;
+}
+/**************************Datatable plugin css changes overriden******************************/
+
+.dataTable thead th, .dataTable thead td {
+    padding: 0px 18px !important;
+}
+
+.dataTables_wrapper .dataTables_info {
+    display: none;
+}
+
+.dataTable tbody tr.odd {
+    background-color: #eee !important;
+}
+
+
+.dataTables_wrapper .dataTables_filter {
+    padding-top: 5px;
+    display: none;
+}
+
+.table.dataTable tfoot th, table.dataTable tfoot td {
+    padding:0px !important;
+}
+
+
+.dataTable tbody th, .dataTable tbody td {
+     padding: 5px 0px !important;
+}
+
+
+.dataTable thead th {
+    text-decoration:underline;
+}
+
+.DTFC_LeftBodyLiner{
+    overflow-y:scroll !important;
+    overflow-x: hidden;
+}
+
+.dataTables_scrollFootInner {
+  padding-right:0px !important;
+
+}
+.dataTables_scrollHeadInner {
+   padding-right: 0px !important;
+}
+
+.dataTable thead .sorting_asc {
+  background-image: url("../content/images/sort_asc.png") !important;
+}
+.dataTable thead .sorting_desc {
+  background-image: url("../content/images/sort_desc.png") !important;
+}
+/**************************Datatable plugin css changes overriden****************************/

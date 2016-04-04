@@ -1,0 +1,2 @@
+ALTER TABLE [tblStudentSchoolYear] 
+ALTER COLUMN GradeLevel SMALLINT NULL 

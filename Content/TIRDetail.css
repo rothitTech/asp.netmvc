@@ -1,0 +1,154 @@
+﻿.report-header {
+    background: #58595B;
+    color: white;
+}
+
+    .report-header .report-title {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+.report-toggle {
+    float: right;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.report-header .report-column-headers {
+    padding-left: 10px;
+}
+
+.grid-report {
+    width: 100%;
+}
+
+    .grid-report .row-mergedcols {
+        background: #58595B;
+        height: 10px;
+    }
+
+    .grid-report .row-assessment-headers {
+        background: #231F20;
+        color: white;
+    }
+
+    .grid-report .row-report-columns {
+        background: #231F20;
+        color: white;
+    }
+
+.row-report-columns a {
+    color: white;
+}
+
+.grid-report th {
+    text-align: right;
+}
+
+.grid-report .fixed-column {
+    text-align: left;
+}
+
+.grid-report .fixed-column-ID {
+    text-align: right;
+}
+
+.col-id {
+    padding-left: 10px;
+    text-align: right;
+}
+
+.col-student {
+    border-right: solid;
+    padding-left: 30px;
+}
+
+.col-score-first {
+    text-align: right;
+}
+
+.col-projection-first {
+    text-align: right;
+}
+
+.col-meet-exceed-first {
+    text-align: right;
+    font-weight: bold;
+}
+
+.col-percentile-first {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.col-growth-first {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.col-score {
+    text-align: right;
+}
+
+.col-score-inner {
+    text-align: right;
+    border-left: solid;
+}
+
+.col-projection-inner {
+    text-align: right;
+}
+
+.col-meet-exceed-inner {
+    text-align: right;
+    font-weight: bold;
+}
+
+.col-percentile-inner {
+    text-align: right;
+}
+
+.col-growth-inner {
+    text-align: right;
+}
+
+.col-endof-assessment {
+    padding-right: 10px;
+}
+
+.col-padding-right {
+    padding-right: 15px;
+}
+
+.row-normal {
+    background: #FFFFFF;
+}
+
+.row-alternate {
+    background: #F9F9F9;
+}
+
+.meet-exceed-legend {
+    float: right;
+    margin-left: 8px;
+}
+
+.meet-exceed-legent-title {
+    float: right;
+    margin-left: 3px;
+}
+
+.meet-exceed-arrow {
+    margin-top: 5px;
+    float: right;
+    width: 11px;
+    height: 11px;
+    background: url('images/meet_exceed_arrows_sprite.png');
+}
+
+.detail-report-toggle{
+     float: right;
+    padding-left: 35px;
+    padding-top: 20px;
+    display:none;
+}

@@ -1,0 +1,2 @@
+ALTER TABLE tblAssessmentWeighting
+DROP COLUMN Weighting

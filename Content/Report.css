@@ -1,0 +1,97 @@
+﻿.meet-exceed-arrow {
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+    width: 11px;
+    height: 11px;
+    background: url('images/meet_exceed_arrows_sprite.png');
+}
+
+
+.meet-exceed-arrow--2 {
+    background-position: 0px 0px;
+}
+
+.meet-exceed-arrow--1 {
+    background-position: 0px -21px;
+}
+
+.meet-exceed-arrow-0 {
+    background-position: 0px -42px;
+}
+
+.meet-exceed-arrow-1 {
+    background-position: 0px -63px;
+}
+
+.meet-exceed-arrow- {
+    display: none;
+}
+
+
+
+.footer-ribbon-color {
+    font-size: 9pt;
+    text-align: center;
+    padding-right: 10px;
+    color: white;
+}
+
+.footer-ribbon-color--2 {
+    background-color: #C8464B;
+}
+
+.footer-ribbon-color--1 {
+    background-color: #EEAC57;
+}
+
+.footer-ribbon-color-0 {
+    background-color: #468CC8;
+}
+
+.footer-ribbon-color-1 {
+    background-color: #5FB760;
+}
+
+.footer-ribbon-color- {
+    background-color: #468CC8;
+}
+
+.footer-ribbon-arrow {
+    float: left;
+}
+
+
+
+.modal-dialog-Assessment {
+    width: 900px;
+    margin: 20px auto;
+    height: 600px;
+}
+
+.modal-header-assessment {
+    min-height: 16.428571429px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-header-assessment .close {
+        margin-top: -7px;
+}
+
+.iframe-container {
+    padding-bottom: 60%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+    .iframe-container iframe,
+    .iframe-container object,
+    .iframe-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
